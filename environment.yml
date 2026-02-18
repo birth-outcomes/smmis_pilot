@@ -1,0 +1,25 @@
+name: birth
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dowhy=0.8
+  - graphviz
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - networkx
+  - numpy=2.3
+  - pip
+  - pandas=3.0
+  - polars
+  - python=3.13
+  - seaborn
+  - scikit-learn=1.6
+  - scipy
+  - shap=0.48
+  - statsmodels
+  - xgboost=3.2
+  - pip:
+    - cryptpandas
+    - econml==0.16
